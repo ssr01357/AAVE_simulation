@@ -1,4 +1,4 @@
-scenario_1 = r'''a. Case Introduction 
+scenario_1 = r"""a. Case Introduction 
 	i. A 65-year-old woman comes to the emergency department because of severe left—sided chest pain. She appears anxious and diaphoretic
 b. Initial vital signs
 	i. Temperature : 37.0 degrees C (98.6 degrees F) 
@@ -40,8 +40,8 @@ f. Review of systems:
 	vi. Gastrointestinal: See HPI
 	vii. Genitourinary: Gravida 2, para 2; menopause age 50; no history of abnormal cervical cytology
 	viii. Neuropsychiatric: Negative
-'''
-scenario_2 = r'''a. Case Introduction 
+"""
+scenario_2 = r"""a. Case Introduction 
 	i. A 4-year-old boy is brought to the office by his mother because of increasing shortness of breath and wheezing during the past 3 days. He appears well developed and in mild respiratory distress
 b. Initial vital signs 
 	i. Temperature : 36.6 degrees C (97.9 degrees F) 
@@ -78,8 +78,8 @@ c. Initial history
 		6) Gastrointestinal: Negative
 		7) Genitourinary: Negative
 		8) Neuropsychiatric: Negative
-'''
-scenario_3 = r'''a. Case Introduction 
+"""
+scenario_3 = r"""a. Case Introduction 
 	i. A 31-year-old woman is brought to the emergency department by her roommate because she has had nausea and vomiting and now is drowsy and lethargic. She appears acutely ill and is lying down in a fetal position. 
 b. Initial vital signs 
 	i. Temperature : 38.1 degrees C (100.6 degrees F) 
@@ -105,8 +105,8 @@ c. Initial history
 		5) Occupational/Educational: Advertising sales representative; all other history unobtainable
 		6) Recreational: unobtainable
 	vi. Review of systems: unobtainable
-'''
-scenario_4 = r'''a. Case Introduction
+"""
+scenario_4 = r"""a. Case Introduction
 	i. A 25-year-old woman at 38 weeks' gestation is brought to the emergency department by her husband because of a seizure and a loss of consciousness. She is now conscious but appears confused 
 b. Initial vital signs 
 	i. Temperature : 37.2 degrees C (99 degrees F) 
@@ -147,8 +147,8 @@ c. Initial history
 		6) Gastrointestinal: Negative
 		7) Genitourinary: See HPI; Gravida 1, para 0; menarche age 13; last menstrual period 38 weeks ago was normal; last cervical cytology 16 months ago
 		8) Neuropsychiatric: See HPI
-'''
-scenario_5 = r'''a. Case Introduction 
+"""
+scenario_5 = r"""a. Case Introduction 
 	i. A 32—year-old woman comes to the office because of increasing pain and swelling of her knees during the past week. She is well developed, well nourished, and in no apparent distress.
 b. Initial vital signs 
 	i. Temperature : 37.0 degrees C (98.6 degrees F) 
@@ -189,8 +189,8 @@ c. Initial history
 		6) Gastrointestinal: Negative
 		7) Genitourinary: Gravida 3, para 3; menarche age 12; menses regular; last withdrawal bleeding 1 week ago; last cervical cytology 2 years ago; no history of abnormal cervical cytology
 		8) Neuropsychiatric: Negative
-'''
-scenario_6 = r'''a. Case Introduction 
+"""
+scenario_6 = r"""a. Case Introduction 
 	i. A 65—year-old man is brought to the emergency department because of sharp chest pain and respiratory distress. He is In acute distress, moaning, and holding his hands over the right side of his chest. 
 b. Initial vital signs 
 	i. Temperature : 37.0 degrees C (98.6 degrees F) 
@@ -205,5 +205,4 @@ c. Initial history
 	i. Reason(s) for visit: Chest pain; respiratory distress 
 	ii. History of Present illness: 
 		1) The patient, a 65-year-old man, is brought to the emergency department by ambulance from the trucking company where he works. About 10 minutes before the ambulance arrived, the patient developed excruciating, sharp pain in the right side of his chest and marked respiratory distress. He rates the pain as an 8 on a 10—point scale. The pain increases with respiration. He is unable to answer questions. A coworker who accompanied the patient to the hospital says that this never happened before, but the patient has had emphysema and asthma for years. Oxygen was administered during transport. All other history unobtainable. 
-'''
-
+"""

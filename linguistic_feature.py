@@ -1,4 +1,4 @@
-feature = r'''
+feature = r"""
 Omission of "is" and "are"
 	
 Invariant "be"
@@ -73,4 +73,4 @@ Replacement of final "ing" with "in' "
 
 Omission of unstressed syllables at the beginning and middle	
 
-'''
+"""

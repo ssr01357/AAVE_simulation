@@ -1,0 +1,7 @@
+openai>=1.0.0
+python-dotenv
+jupyter
+pandas
+numpy
+matplotlib
+seaborn
