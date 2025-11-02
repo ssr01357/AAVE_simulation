@@ -8,13 +8,18 @@ This project generates and analyzes medical patient-doctor conversations that in
 
 ```
 .
-├── test.py                     # Main script to generate conversations
-├── prompt_generator.py         # PromptGenerator class for creating prompts
-├── linguistic_feature.py       # AAVE linguistic feature definitions
-├── medical_scenario.py         # Six medical case scenarios    
-├── requirements.txt          
+├── src/                        # Source code
+│   ├── test.py                 # Main script to generate conversations
+│   ├── prompt_generator.py     # PromptGenerator class for creating prompts
+│   ├── linguistic_feature.py   # AAVE linguistic feature definitions
+│   └── medical_scenario.py     # Six medical case scenarios
+├── notebooks/                  # Jupyter notebooks for analysis
+├── results/                    # Analysis outputs (CSVs, visualizations, statistics)
+├── output_gpt4o/              # GPT-4o generated conversations
+├── output_llama/              # Llama generated conversations
+├── output_mixtral/            # Mixtral generated conversations
+├── requirements.txt           # Python dependencies
 └── lookup.pkl                 # Annotation lookup data
-           
 ```
 
 ## Installation
@@ -41,13 +46,13 @@ vllm serve meta-llama/Llama-3.3-70B-Instruct --port 8000
 
 ### Generating Conversations
 
-Edit `test.py` to configure your model and scenario:
+Edit `src/test.py` to configure your model and scenario:
 
 ```python
 from openai import OpenAI
-from prompt_generator import PromptGenerator
-from linguistic_feature import feature
-from medical_scenario import scenario_1
+from src.prompt_generator import PromptGenerator
+from src.linguistic_feature import feature
+from src.medical_scenario import scenario_1
 
 # For OpenAI models
 client = OpenAI()
